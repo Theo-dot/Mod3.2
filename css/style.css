@@ -1,0 +1,222 @@
+/* Global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  margin: 0;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 20px 0;
+}
+
+h2 {
+  font-size: 70px;
+  margin: 58px 0 12px 0;
+}
+
+h3 {
+  margin: 18px 0 0 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+.btn {
+  font-family: "Montserrat", sans-serif;
+}
+
+p,
+a {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.brand-name {
+  font-family: "Pacifico", cursive;
+  color: #e7de56;
+}
+
+/* Navigation */
+.navigation {
+  background-image: url(https://zapodaj.net/images/3c13be2f564a1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 18px 0;
+}
+
+.navigation a {
+  text-decoration: none;
+}
+
+.navigation ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 18px;
+  left: 70%;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin: 0 12px 0 0;
+  position: relative;
+}
+
+.navigation ul li:hover {
+  background-color: #80b8f0;
+}
+
+.navigation ul li a {
+  margin: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.splash {
+  min-width: 500px;
+  padding: 100px 0 150px 0;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(https://zapodaj.net/images/3c13be2f564a1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+}
+
+.splash-inner {
+  margin: auto;
+  max-width: 70%;
+  padding: 70px 0 0 0;
+}
+
+.page-title {
+  margin: 40px 0;
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
+  min-width: 350px;
+}
+
+.page-subtitle {
+  margin: 10px 0 24px 0;
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  min-width: 160px;
+  margin: 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  background-position: 100% 0;
+  background-size: 300%;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 20%;
+}
+
+.btn:hover {
+  background-position: 0 100%;
+  color: white;
+  transition: 1s all;
+}
+
+.btn-one {
+  border-color: white;
+  color: white;
+}
+
+.btn-one:hover {
+  background: white;
+}
+
+/* Services */
+.card {
+  text-align: center;
+}
+
+.card .row {
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.card-desc {
+  text-align: center;
+}
+
+.services {
+  padding: 40px 0;
+}
+
+.services i {
+  font-size: 30px;
+  background: white;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: #ffe448;
+  border-radius: 50%;
+  border-width: 1px;
+  border-style: solid;
+}
+
+/* Portfolio */
+.card {
+  padding: 0 0 60px 0;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* Footer */
+.footer {
+  background: #d6d6d6;
+}
+
+.copy {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.box {
+  -ms-flex-pack: center;
+      justify-content: center;
+  text-align: center;
+}
+
+.box i {
+  font-size: 20px;
+  background: black;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */
