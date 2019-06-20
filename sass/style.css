@@ -78,7 +78,7 @@ a {
 }
 
 .navigation ul li:hover {
-  background-color: #80b8f0;
+  background-color: #e7de56;
 }
 
 .navigation ul li a {
@@ -141,18 +141,18 @@ a {
 
 .btn:hover {
   background-position: 0 100%;
-  color: white;
+  color: #ffffff;
   -webkit-transition: 1s all;
   transition: 1s all;
 }
 
 .btn-one {
-  border-color: white;
-  color: white;
+  border-color: #ffffff;
+  color: #ffffff;
 }
 
 .btn-one:hover {
-  background: white;
+  background: #e7de56;
 }
 
 /* Services */
@@ -176,11 +176,11 @@ a {
 
 .services i {
   font-size: 30px;
-  background: white;
+  background: #ffffff;
   width: 60px;
   height: 60px;
   line-height: 60px;
-  color: #ffe448;
+  color: #e7de56;
   border-radius: 50%;
   border-width: 1px;
   border-style: solid;
@@ -200,7 +200,7 @@ a {
 
 /* Footer */
 .footer {
-  background: #d6d6d6;
+  background: #c0c0c0;
 }
 
 .copy {
@@ -218,11 +218,11 @@ a {
 
 .box i {
   font-size: 20px;
-  background: black;
+  background: #000000;
   width: 40px;
   height: 40px;
   line-height: 40px;
-  color: white;
+  color: #ffffff;
   border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */

@@ -8,13 +8,16 @@
 }
 
 $color-blue: #80b8f0;
-$color-grey: #676868;
+$color-grey: #c0c0c0;
 $color-gold: #e7de56;
 $color-white: #ffffff;
+$color-black: #000000;
 $primary-color: $color-blue;
 $secondary-color: $color-white;
 $brand-color: $color-gold;
+$footer-color: $color-grey;
 $text-color: $color-white;
+$icon-color: $color-black;
 $primary-font: "Roboto", sans-serif;
 $brand-font: "Pacifico", cursive;
 $secondary-font: "Montserrat", sans-serif;
@@ -85,7 +88,7 @@ a {
       margin: 0 12px 0 0;
       position: relative;
       &:hover {
-        background-color: $primary-color;
+        background-color: $brand-color;
       }
       a {
         margin: 10px;
@@ -117,7 +120,6 @@ a {
   margin: 40px 0;
   font-size: 60px;
   font-weight: 400;
-  //line-height: 1.2;
   text-align: center;
   min-width: 350px;
 }
@@ -145,16 +147,16 @@ a {
   width: 20%;
   &:hover {
     background-position: 0 100%;
-    color: white;
+    color: $text-color;
     transition: 1s all;
   }
 }
 
 .btn-one {
-  border-color: white;
-  color: white;
+  border-color: $secondary-color;
+  color: $text-color;
   &:hover {
-    background: white;
+    background: $brand-color;
   }
 }
 
@@ -175,11 +177,11 @@ a {
   padding: 40px 0;
   i {
     font-size: 30px;
-    background: white;
+    background: $secondary-color;
     width: 60px;
     height: 60px;
     line-height: 60px;
-    color: #ffe448;
+    color: $brand-color;
     border-radius: 50%;
     border-width: 1px;
     border-style: solid;
@@ -200,7 +202,7 @@ a {
 /* Footer */
 
 .footer {
-  background: #d6d6d6;
+  background: $footer-color;
 }
 
 .copy {
@@ -212,11 +214,11 @@ a {
   text-align: center;
   i {
     font-size: 20px;
-    background: black;
+    background: $icon-color;
     width: 40px;
     height: 40px;
     line-height: 40px;
-    color: white;
+    color: $text-color;
     border-radius: 50%;
   }
 }
