@@ -1,0 +1,224 @@
+/* Global */
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+$color-blue: #80b8f0;
+$color-grey: #c0c0c0;
+$color-gold: #e7de56;
+$color-white: #ffffff;
+$color-black: #000000;
+$primary-color: $color-blue;
+$secondary-color: $color-white;
+$brand-color: $color-gold;
+$footer-color: $color-grey;
+$text-color: $color-white;
+$icon-color: $color-black;
+$primary-font: "Roboto", sans-serif;
+$brand-font: "Pacifico", cursive;
+$secondary-font: "Montserrat", sans-serif;
+
+body {
+  background: $secondary-color;
+  margin: 0;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 20px 0;
+}
+
+h2 {
+  font-size: 70px;
+  margin: 58px 0 12px 0;
+}
+
+h3 {
+  margin: 18px 0 0 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+.btn {
+  font-family: $secondary-font;
+}
+
+p,
+a {
+  margin: 0;
+  font-family: $primary-font;
+}
+
+.brand-name {
+  font-family: $brand-font;
+  color: $brand-color;
+}
+
+/* Navigation */
+
+.navigation {
+  background-image: url(https://zapodaj.net/images/3c13be2f564a1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 18px 0;
+  a {
+    text-decoration: none;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: absolute;
+    top: 18px;
+    left: 70%;
+    li {
+      display: inline-block;
+      margin: 0 12px 0 0;
+      position: relative;
+      &:hover {
+        background-color: $brand-color;
+      }
+      a {
+        margin: 10px;
+        text-decoration: none;
+        color: $text-color;
+      }
+    }
+  }
+}
+
+.splash {
+  min-width: 500px;
+  padding: 100px 0 150px 0;
+  display: flex;
+  background-image: url(https://zapodaj.net/images/3c13be2f564a1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: $text-color;
+}
+
+.splash-inner {
+  margin: auto;
+  max-width: 70%;
+  padding: 70px 0 0 0;
+}
+
+.page-title {
+  margin: 40px 0;
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
+  min-width: 350px;
+}
+
+.page-subtitle {
+  margin: 10px 0 24px 0;
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  min-width: 160px;
+  margin: 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  background-position: 100% 0;
+  background-size: 300%;
+  align-items: center;
+  width: 20%;
+  &:hover {
+    background-position: 0 100%;
+    color: $text-color;
+    transition: 1s all;
+  }
+}
+
+.btn-one {
+  border-color: $secondary-color;
+  color: $text-color;
+  &:hover {
+    background: $brand-color;
+  }
+}
+
+/* Services */
+
+.card {
+  text-align: center;
+  .row {
+    justify-content: center;
+  }
+}
+
+.card-desc {
+  text-align: center;
+}
+
+.services {
+  padding: 40px 0;
+  i {
+    font-size: 30px;
+    background: $secondary-color;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: $brand-color;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+  }
+}
+
+/* Portfolio */
+
+.card {
+  padding: 0 0 60px 0;
+  img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+}
+
+/* Footer */
+
+.footer {
+  background: $footer-color;
+}
+
+.copy {
+  align-self: center;
+}
+
+.box {
+  justify-content: center;
+  text-align: center;
+  i {
+    font-size: 20px;
+    background: $icon-color;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: $text-color;
+    border-radius: 50%;
+  }
+}
